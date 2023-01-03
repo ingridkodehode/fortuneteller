@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maitree:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="head">
+        <h1>Fortune Teller</h1>
+        <h2>Know your future! If you dare...</h2>
+        <div class="interact">
+          <button id="btn-el" onclick="doTheThing()">ASK</button>
+        </div>
+      </div>
+      <div id="output">
+        <div class="ans">
+          <h3>Your Answer</h3>
+          <p id="answer-el"></p>
+        </div>
+        <!-- <h3>Luck Level</h3>
+        <p id="luck-el"></p>
+        <h3>Important Item</h3>
+        <p id="item-el"></p>
+        <h3>Potential Dangers</h3>
+        <p id="danger-el"></p> -->
+        <div class="fut">
+          <h3>Your Future</h3>
+          <p id="future-el"></p>
+        </div>
+      </div>
+    </div>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

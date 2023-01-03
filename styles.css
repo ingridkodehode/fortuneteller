@@ -1,0 +1,144 @@
+body {
+  color: #f4daf6;
+  font-family: "Maitree", serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(/images/giphy.gif);
+  background-size: cover;
+}
+
+.head {
+  background-color: rgba(33, 21, 34, 0.797);
+  color: #bc92c0;
+  padding: 1vh 1vh 0vh 1vh;
+  text-align: center;
+  border-radius: 50px 50px 0px 0px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #0e0f2e;
+  text-align: left;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 1vh;
+  padding-top: 3vh;
+  color: #f1d8e4;
+  font-family: mega;
+  text-shadow: 0 0 20px #d3b1c2;
+  letter-spacing: 1vh;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 0px;
+  padding-top: 0px;
+  display: block;
+  font-weight: 400;
+  text-align: left;
+  color: #0e0f2e;
+}
+
+.fut,
+.ans {
+  background-color: rgba(227, 143, 224, 0.349);
+  padding: 0.5vh 4vh;
+  margin: 1vh;
+}
+
+.content {
+  border-radius: 50px 50px 0px 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(218, 112, 214, 0.123);
+  height: auto;
+}
+
+#output {
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 3vh;
+  height: 54vh;
+  bottom: 0px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  background-color: rgba(193, 151, 210, 0.29);
+}
+
+.interact {
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+}
+
+button {
+  background: transparent;
+  color: #d3b1c2;
+  height: 50px;
+  width: 200px;
+  border: 3px solid #d3b1c2;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font-size: 20px;
+  box-shadow: 0 0 0 #d3b1c2;
+  transition: ease-in 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  font-family: "Maitree", serif;
+}
+
+button:hover {
+  box-shadow: 0 0 20px #d3b1c2;
+  inset: 200px 0 #d3b1c2;
+  text-shadow: 0 0 20px #d3b1c2;
+  color: #e6bcea;
+}
+
+@font-face {
+  font-family: mega;
+  src: url("Meglona-1GqWj.otf");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+  background: #c197d2;
+  position: fixed;
+}
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+#top {
+  top: 0;
+}
+#bottom {
+  bottom: 0;
+}
